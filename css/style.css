@@ -1,0 +1,60 @@
+#tout{
+	background-color:#170C24; 
+	text-align: center;
+}
+
+img{
+	margin-top: 20px;
+	-webkit-border-radius:110px;
+    -moz-border-radius:110px;
+    width: 150px;
+    height: 150px;
+    border-radius: 110px;
+}
+
+#h1{
+	background-color:#170C24; 
+	color: #DCDCED;
+	text-align: center;
+}
+
+#hache{
+	border-bottom: solid;
+	border-width: 20px;
+	border-color:#DCDCED;
+	padding-bottom: 30px;
+	color: #DCDCED;
+	font-size: 20px;
+}
+
+#texte{
+	width: 900px;
+	text-align: justify;
+	margin: auto;
+	padding: 20px;
+}
+
+li{
+	margin-top: 3px;
+	margin-bottom: 30px;
+	padding-top: 3px;
+	padding-bottom: 3px;	
+	background-color: #170C24;
+} 
+a{
+	text-decoration: none;
+	color: #DCDCED;
+}
+
+#menu{
+	list-style-type: none;
+	width: 200px;
+	float: right;
+	text-align: center;
+	height: 300px;
+}
+
+/* #toto{
+	float: right;
+	clear: right;
+} --> #toto dans html tester ou ca bouge*/
