@@ -1,11 +1,32 @@
 $(document).ready(function(){
 
-/*	$.getJSON('http://vps227573.ovh.net/u-20.json',function(data){
-		var var1="{{first_name}} {{occupation}}";
-		var var2=Mustache.to_html(var1, data)
-		$('h1').html(var2);
-	};
-*/
+	$('body').on('click','a', function(event){
+		
+		event.preventDefault();
+	
+		var id = $(this).attr('href');
+		
+		$('.contenu').hide();
+
+		if (id=="#modalbox"){
+
+			$('#conteneur').show();
+
+		}
+
+		else{
+			$(id).show();
+		}
+				
+	});
+
+
+	$('body').on('click', '#btn', function(){
+			console.log('work !');
+			$('#conteneur').remove();
+	});
+
+
 
 	$.getJSON('https://s.idsympa.com/u-20.json',function(data) {
 		mytemplate(data);

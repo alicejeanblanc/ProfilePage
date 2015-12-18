@@ -19,33 +19,62 @@
 
 <body>
 
-<script id="template" type="x-tmpl-mustache">
+	<script id="template" type="x-tmpl-mustache">
 
-	<nav id="tout"> 
+		<div id="titrehaut"> 
 
-		<img src="http://lorempixel.com/124/125/animals/4/cc">
+			<img src="http://lorempixel.com/124/125/animals/4/cc">
 
-		<h1 id="h1">
-			<p>{{first_name}}</p>
-			<p>{{last_name}}</p>
-		</h1>
+			<h1 id="h1">
+				<p>{{first_name}}</p>
+				<p>{{last_name}}</p>
+			</h1>
 
-		<h2 id="hache">
-			<p>{{occupation}}</p>
-		</h2>
+			<h2 id="hache">
+				<p>{{occupation}}</p>
+			</h2>
 
-	</nav>
-				
-	<div id="texte">
+		</div>
+
+		<div id="texte">
+
+			<ul id="menu">
+				<li><a href="#projet">Projet</a></li>
+				<li><a href="#badges">Badges</a></li>
+				<li><a href="#modalbox">Contact</a></li>
+			</ul>
+
+
+		<div id="overlay">
+
+			<div class="contenu" id="projet">
+				<p>aliceLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione odit, voluptatem nesciunt, sint facere exercitationem deleniti veniam autem, sunt similique quod sapiente soluta eaque tempora perspiciatis consequatur a architecto odio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium iste ex, ea blanditiis iusto, quasi maxime corporis error libero harum ut. Voluptate odit facilis officiis qui enim pariatur distinctio quaerat.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci temporibus necessitatibus perspiciatis consequuntur accusantium, aut atque porro alias doloribus ducimus mollitia eum, obcaecati provident cumque explicabo amet quisquam quas vitae!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, accusantium temporibus ipsam molestiae iste quae nesciunt architecto, magni placeat libero repudiandae! Commodi cupiditate nesciunt, nihil minima delectus deleniti tempore nulla.</p>
+			</div>
+			
+			<div class="contenu" id="badges">
+				<p>aliLorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione odit, voluptatem nesciunt, sint facere exercitationem deleniti veniam autem, sunt similique quod sapiente soluta eaque tempora perspiciatis consequatur a architecto odio.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium iste ex</p>
+			</div>
+
 		
-		<ul id="menu">
-			<li><a href="parts/projet.html">Projet</a></li>
-			<li><a href="parts/badges.html">Badges</a></li>
-			<li><a href="parts/contact.html">Contact</a></li>
-		</ul>
+		</div>
 
+		</div>
 
-	</div>
-</script>
-</body>
+		<div id="conteneur">
+			
+			<div id="modalbox">
+			<a id="btn" href="#"> X </a><br>
+				<p>{{first_name}}</p>
+				<p>{{last_name}}</p>
+				<p>{{occupation}}</p>
+				<p>{{contact.email}}</p>
+			
+			</div>
+		
+		</div>
+		
+		</script>
+
+	</body>
+
 </html>
